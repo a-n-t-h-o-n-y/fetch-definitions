@@ -33,11 +33,14 @@ npm install
 Run the tool with the following command:
 
 ```bash
-npm start -- <input-file> <output-directory>
+npm start -- <input-file> <output-location>
 ```
 
 -   `<input-file>`: The path to the input `.txt` file containing the list of words, one word per line.
--   `<output-directory>`: The path to the output directory where the Markdown file will be saved.
+-   `<output-location>`: The directory or filepath where the Markdown file will be saved.
+
+If a directory is given for `<output-location>` the output filename will be generated
+from the input filename.
 
 For example:
 
